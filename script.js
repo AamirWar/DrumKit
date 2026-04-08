@@ -21,27 +21,27 @@ document.addEventListener("keydown", function (event) {
 function makeSound(key) {
     switch (key) {
         case "w":
-            new Audio("Sounds/Snare.mp3").play();
+            new Audio("Snare.mp3").play();
             break;
 
         case "s":
-            new Audio("Sounds/kick.mp3").play();
+            new Audio("kick.mp3").play();
             break;
 
         case "a":
-            new Audio("Sounds/HiHatClosed.mp3").play();
+            new Audio("HiHatClosed.mp3").play();
             break;
 
         case "d":
-            new Audio("Sounds/HiHatOpen.mp3").play();
+            new Audio("HiHatOpen.mp3").play();
             break;
 
         case "j":
-            new Audio("Sounds/CrashCymbal.mp3").play();
+            new Audio("CrashCymbal.mp3").play();
             break;
 
         case "k":
-            new Audio("Sounds/TomHit.mp3").play();
+            new Audio("TomHit.mp3").play();
             break;
 
         default:
