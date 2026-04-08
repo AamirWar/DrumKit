@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: orangered;
+    font-family: cursive;
+    margin: 20px;
+}
+h1{
+    font-size: 3.5em;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+button{
+    width: 200px;
+    height: 200px;
+    font-size: 3em;
+    font-family: cursive;
+    font-weight: bolder;
+    color: yellow;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    margin-top: 5px;
+    transition: all 400ms;
+    margin-bottom: 20px;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.w{
+    background-image: url(Images/Snare.jpg);
+}
+.s{
+    background-image: url(Images/Kick.jpg);
+}
+.a{
+    background-image: url(Images/HiHatClose.jpg);
+}
+.d{
+    background-image: url(Images/HiHatOpen.webp);
+}
+.j{
+    background-image: url(Images/CrashCymbal.jpg);
+}
+.k{
+    background-image: url(Images/TomDrum.jpg);
+}
