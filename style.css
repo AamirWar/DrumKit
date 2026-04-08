@@ -27,6 +27,12 @@ button{
     transition: all 400ms;
     margin-bottom: 20px;
 }
+@media (max-width: 500px){
+    .button{
+        width: 100px;
+        font-size: 2em;
+    }
+}
 button:hover{
     transform: scale(1.05);
 }
