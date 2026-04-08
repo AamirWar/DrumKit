@@ -31,20 +31,20 @@ button:hover{
     transform: scale(1.05);
 }
 .w{
-    background-image: url(Images/Snare.jpg);
+    background-image: url(Snare.jpg);
 }
 .s{
-    background-image: url(Images/Kick.jpg);
+    background-image: url(Kick.jpg);
 }
 .a{
-    background-image: url(Images/HiHatClose.jpg);
+    background-image: url(HiHatClose.jpg);
 }
 .d{
-    background-image: url(Images/HiHatOpen.webp);
+    background-image: url(HiHatOpen.webp);
 }
 .j{
-    background-image: url(Images/CrashCymbal.jpg);
+    background-image: url(CrashCymbal.jpg);
 }
 .k{
-    background-image: url(Images/TomDrum.jpg);
+    background-image: url(TomDrum.jpg);
 }
